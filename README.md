@@ -131,27 +131,6 @@ qiime tools export --input-path taxonomy.qza     --output-path exported_taxonomy
 qiime tools export --input-path distance.qza     --output-path exported_bray
 ```
 
----
-
-## Notes on anonymity / publishing
-
-If you’re using these as portfolio artifacts:
-- Do not include client names, institutions, locations, sample IDs, coordinates, or raw sequences.
-- Keep real data in `data/` (ignored) and commit only templates + documentation.
-- If you want to demonstrate “proof,” prefer **public datasets** or **synthetic toy data**.
-
----
 
 ## License
-
-Pick a license you’re comfortable with (MIT is common for code templates).  
-If you include any client-facing deliverables, ensure you have permission before publishing.
-
----
-
-## Citation (optional)
-
-If you want to cite this repo in a portfolio or application, use a simple statement like:
-
-> “A portfolio-safe template repo demonstrating my approach to reproducible amplicon QC and re-analysis using QIIME 2 exports and DADA2.”
-
+MIT
